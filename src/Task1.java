@@ -9,7 +9,7 @@ public class Task1 {
     }
 
     public static String updateNames(List<String> names) {
-        AtomicInteger count = new AtomicInteger(0);
+        AtomicInteger count = new AtomicInteger(-1);
 
         return names.stream()
                 .map(name -> {
